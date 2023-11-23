@@ -9,7 +9,7 @@ const NavBar = () => {
 
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 1) {
       setColor(true);
     } else {
       setColor(false);
@@ -33,8 +33,10 @@ const NavBar = () => {
         <li>
           <Link to={"/top-picks"}> Top Picks</Link>
         </li>
-        <li>
-          <Link to={"/contact"}> Contact</Link>
+        <li className="contact-box">
+          <div className="contact">
+            <Link to={"/contact"}> Contact</Link>
+          </div>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
