@@ -31,18 +31,19 @@ ul {
   text-transform: uppercase;
   background: #fe9000;
   color: black;
-  border: 1px solid #b7c8b5;
+  border: 1px solid black;
   font-weight: 600;
   cursor: pointer;
 }
 
 .btn-light {
   background: transparent;
-  color: #b80c09;
+  color: #b7c8b5;
+  border: 1px solid #b7c8b5;
 }
 
 .btn:hover {
   background-color: black;
-  color: #b80c09;
+  color: #fe9000;
   transition: 0.3s;
 }

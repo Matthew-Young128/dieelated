@@ -7,19 +7,46 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-container"></div>
       <div className="social">
-        <FaInstagram
-          size={30}
-          style={{ color: "#b7c8b5", marginRight: "1rem" }}
-        />
-        <FaSpotify
-          size={30}
-          style={{ color: "#b7c8b5", marginRight: "1rem" }}
-        />
-        <FaSoundcloud
-          size={30}
-          style={{ color: "#b7c8b5", marginRight: "1rem" }}
-        />
-        <FaTiktok size={30} style={{ color: "#b7c8b5" }} />
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram
+            size={30}
+            className="icon"
+            style={{ marginRight: "1rem" }}
+          />
+        </a>
+        <a
+          href="https://www.spotify.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaSpotify
+            size={30}
+            className="icon"
+            style={{ marginRight: "1rem" }}
+          />
+        </a>
+        <a
+          href="https://www.soundcloud.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaSoundcloud
+            size={30}
+            className="icon"
+            style={{ marginRight: "1rem" }}
+          />
+        </a>
+        <a
+          href="https://www.tiktok.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTiktok size={30} className="icon" />
+        </a>
       </div>
     </div>
   );
