@@ -10,7 +10,10 @@
 body {
   background: #2e2f2f;
 }
-h1,
+h1 {
+  color: #b7c8b5;
+}
+
 h4,
 p,
 a {
@@ -27,8 +30,8 @@ ul {
   font-size: 1rem;
   text-transform: uppercase;
   background: #fe9000;
-  color: #b7c8b5;
-  border: 1px solid #b80c09;
+  color: black;
+  border: 1px solid #b7c8b5;
   font-weight: 600;
   cursor: pointer;
 }
@@ -39,7 +42,7 @@ ul {
 }
 
 .btn:hover {
-  background-color: #505151;
+  background-color: black;
   color: #b80c09;
   transition: 0.3s;
 }
