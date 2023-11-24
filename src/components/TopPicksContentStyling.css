@@ -1,0 +1,55 @@
+/* Container for the entire content */
+.top-picks-container {
+  display: flex;
+  justify-content: space-between; /* Space between the two columns */
+  max-width: 98%; /* Set the maximum width */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 30px 10px;
+  align-items: flex-start; /* Align items at the top vertically */
+}
+
+/* Styles for the image on the right side */
+.gold-stamp {
+  width: 30%; /* Set the image width to 30% of the container */
+  height: auto;
+}
+
+.top-picks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  padding-bottom: 80px;
+}
+
+.pick {
+  margin-bottom: 20px;
+}
+
+.pick p {
+  display: inline;
+  margin-right: 0px;
+  color: #b7c8b5;
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+/* Styles for track titles with the orange class */
+.pick .orange {
+  color: #fe9000; /* Text color for the orange class */
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjusted for tablet and mobile */
+  .top-picks-container {
+    flex-direction: column; /* Stack content vertically on mobile and tablet view */
+    align-items: center; /* Center align items horizontally */
+  }
+
+  .gold-stamp {
+    width: 100%; /* Image takes up full width on smaller screens */
+    margin-bottom: 20px; /* Add spacing between the image and list */
+    margin-top: 20px;
+    padding-bottom: 40px;
+  }
+}
