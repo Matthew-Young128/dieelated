@@ -10,6 +10,7 @@ const HeroImg = () => {
         <img className="intro-img" src={IntroImg} alt="dj at festival"></img>
       </div>
       <div className="content">
+        <p>Hello, I am</p>
         <h1>DIE:ELATED</h1>
         <Link to="/music" className="btn">
           Music
