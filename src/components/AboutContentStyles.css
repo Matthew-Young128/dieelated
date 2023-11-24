@@ -1,0 +1,57 @@
+/* AboutPage.css */
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+
+.left-column {
+  flex: 1;
+  padding-right: 2rem;
+  border-right: 2px solid #b7c8b5;
+}
+
+.section-header {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #b7c8b5;
+}
+
+p {
+  color: #b7c8b5;
+}
+
+.right-column {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.contact-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contact-button a {
+  padding: 10px 20px;
+  background-color: #fe9000;
+  color: #b7c8b5;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.contact-button a:hover {
+  background-color: #b7c8b5;
+  color: #fe9000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
