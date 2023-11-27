@@ -1,5 +1,3 @@
-/* AboutContentStyles.css */
-
 .about-content {
   display: flex;
   flex-direction: column;
@@ -72,12 +70,12 @@ p {
   }
 
   .about-grid {
-    flex-direction: column; /* Change to column on mobile screens */
-    align-items: center; /* Center-align items horizontally on mobile screens */
+    flex-direction: column;
+    align-items: center;
   }
 
   .about-contact a {
-    padding: 1rem 3rem; /* Adjust button padding for mobile screens */
+    padding: 1rem 3rem;
   }
 }
 @media screen and (min-width: 1600px) {

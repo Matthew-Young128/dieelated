@@ -1,13 +1,12 @@
 import "./MusicCardsStyles.css";
 import React from "react";
-import AlbumCover1 from "../assets/DIE-ELATED.jpg"; // Import your album cover images
+import AlbumCover1 from "../assets/DIE-ELATED.jpg";
 import AlbumCover2 from "../assets/My project (1).png";
 import AlbumCover7 from "../assets/Screenshot 2023-11-24 at 3.09.36 PM.png";
 import AlbumCover4 from "../assets/Voyager.png";
 import AlbumCover5 from "../assets/Jewel Girl Record.png";
 import AlbumCover6 from "../assets/39 Die Elated Flower.png";
 import AlbumCover3 from "../assets/Record Cover Girl.png";
-// Import more album covers as needed
 
 const MusicCards = () => {
   return (
